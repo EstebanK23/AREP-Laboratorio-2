@@ -108,3 +108,4 @@ proyectos creados con maven
 target/
 # Ignora archivo .DS_Store en Mac
 .DS_Store
+/target - copia/
