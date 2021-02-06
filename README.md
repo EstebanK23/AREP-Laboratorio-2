@@ -62,11 +62,11 @@ Para ver el despliegue se usa este comando
 
 ![image](https://user-images.githubusercontent.com/54051399/107121173-029da600-685f-11eb-911a-7c86c2bffd72.png)
 
-Otra forma es acceder a este link
+Otra forma es acceder a este link **(Deploy in Heroku)**
 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://stark-inlet-93694.herokuapp.com/data)
 
-Aca se muestra el sistema de integración continua (Circle Ci)
+Aca se muestra el sistema de integración continua **(Circle Ci)**
 
 [![CircleCI](https://circleci.com/gh/PDSW-ECI/base-proyectos.svg?style=svg)](https://app.circleci.com/pipelines/github/EstebanK23/AREP-Laboratorio-2)
 
