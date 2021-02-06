@@ -68,6 +68,8 @@ Otra forma es acceder a este link
 
 Aca se muestra el sistema de integración continua (Circle Ci)
 
+[![CircleCI](https://circleci.com/gh/PDSW-ECI/base-proyectos.svg?style=svg)](https://app.circleci.com/pipelines/github/EstebanK23/AREP-Laboratorio-2)
+
 Por ultimo mostramos las pruebas de que el despligue funciona perfectamente en heroku.
 
 ![image](https://user-images.githubusercontent.com/54051399/107121228-4395ba80-685f-11eb-9ba3-afbf8055103a.png)
