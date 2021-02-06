@@ -40,11 +40,9 @@ Para obtener el proyecto deberas clonarlo desde git, el cual ya debe estar insta
 
 El paso siguiente es compilar el proyecto haciendo uso del siguiente comando de Maven.
 
-![image](https://user-images.githubusercontent.com/54051399/107120929-98d0cc80-685d-11eb-9b6b-4a9b49539f20.png
+![image](https://user-images.githubusercontent.com/54051399/107120929-98d0cc80-685d-11eb-9b6b-4a9b49539f20.png)
 
 Al realizar este comando podremos ver los siguente
-
-![image](https://user-images.githubusercontent.com/54051399/107120986-fa913680-685d-11eb-8331-8f32dde0b70
 
 ![image](https://user-images.githubusercontent.com/54051399/107121022-36c49700-685e-11eb-91b6-c9cb2ea64681.png)
 
