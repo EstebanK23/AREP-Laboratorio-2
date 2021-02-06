@@ -18,7 +18,7 @@ import java.util.stream.Stream;
 
 /**
  *
- * @author esteb
+ * @author Esteban Bernal
  */
 public class LinkedList<E> implements List<E>{
     Node tail = null;

@@ -7,7 +7,7 @@ package edu.escuelaing.arep.LinkedList;
 
 /**
  *
- * @author esteb
+ * @author Esteban Bernal
  */
 public class Node<N> {
     private N value;

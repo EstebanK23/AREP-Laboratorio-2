@@ -13,16 +13,23 @@ import static spark.Spark.*;
 
 /**
  *
- * @author esteb
+ * @author Esteban Bernal
  */
 public class SparkWebApp {
+    
+    /**
+     * Metedo main que utilizaremos para utilizar el framework saprk el cual usaremos para darle un front a la calculadora ya implementada.
+    **/
     public static void main(String[] args) {
     port(getPort());
     get("/data", (req, res) ->  DataToCalculate(req, res));
     get("/results", (req, res) -> DataResult(req, res));
     }
 
-    
+    /**
+    * Metedo getPort se encarga de obtener el puerto para ejecutar localmente.
+    * @return 4567 Puerto para ejecutar localmente
+    **/
     static int getPort() {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
@@ -30,7 +37,13 @@ public class SparkWebApp {
     return 4567;
     }
     
-    
+    /**
+    * Se implementa el metodo para leer los datos que ingrese el usuario separados por coma
+    * 
+    * @param req funcion lambda tipo Request
+    * @param res funcion lambda tipo Response
+    * @return Numb html con los resultados
+    */
     private static String DataResult(Request req, Response res) {
         LinkedList Linked = new LinkedList();
         String[] DataInput = req.queryParams("Numbers").split(",");
@@ -50,7 +63,15 @@ public class SparkWebApp {
                 + "</html>";
         return Numb;
 
-    }                                                                                                       
+    }
+
+    /**
+    * Se implementa el metodo para leer los datos que ingrese el usuario separados por coma
+    * 
+    * @param req funcion lambda tipo Request
+    * @param res funcion lambda tipo Response
+    * @return pageContent html ingreso de datos 
+    */
     private static String DataToCalculate(Request req, Response res) {
         String pageContent
             = "<!DOCTYPE html>"

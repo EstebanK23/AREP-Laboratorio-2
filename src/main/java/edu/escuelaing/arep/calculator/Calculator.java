@@ -17,11 +17,7 @@ public class Calculator {
     
     public Calculator(){}
     
-    /**
-     * El metodo de Mean es el encargado de calcular la media del LinkedList
-     * @param Numbers es el LinkedList que se pasa para calular la media
-     * @return double Media del LinkedList
-     */
+    
     public static Double Mean(List<Double> Numbers) {
         Double result = 0.0;
         for(Double x: Numbers){
